@@ -1,0 +1,16 @@
+1º
+SELECT COUNT(*) FROM `vencedoresdooscar` WHERE Nominee = 'Natalie Portman' 
+2 vezes
+2º
+SELECT COUNT(*) FROM `vencedoresdooscar` WHERE Nominee = 'Natalie Portman' AND Won = 'Yes'
+1 vez
+3º 
+SELECT COUNT(*) FROM `vencedoresdooscar` WHERE Nominee = 'Amy Adams' AND Won = 'Yes'
+Não
+4º
+SELECT Year, Won FROM 'vencedoresdooscar` WHERE Nominee = 'Toy Story 3' AND WON = 'YES'
+2010
+5º 
+SELECT COUNT(*) FROM `vencedoresdooscar` WHERE category = 'Actor -- Leading Role';
+SELECT COUNT(*) FROM `vencedoresdooscar` WHERE category = 'Best Picture';
+Os Melhores filmes tem mais indicados com 485 e Melhor ator com 408
