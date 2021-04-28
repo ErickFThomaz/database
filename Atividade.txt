@@ -11,6 +11,6 @@ Não
 SELECT Year, Won FROM 'vencedoresdooscar` WHERE Nominee = 'Toy Story 3' AND WON = 'YES'
 2010
 5º 
-SELECT COUNT(*) FROM `vencedoresdooscar` WHERE category = 'Actor -- Leading Role';
-SELECT COUNT(*) FROM `vencedoresdooscar` WHERE category = 'Best Picture';
-Os Melhores filmes tem mais indicados com 485 e Melhor ator com 408
+SELECT COUNT(*) FROM `vencedoresdooscar` WHERE category = 'Actor -- Leading Role' AND WON = 'YES';
+SELECT COUNT(*) FROM `vencedoresdooscar` WHERE category = 'Best Picture' AND WON = 'YES';
+Os melhor ator ganhou 85 e melhor filme 83
