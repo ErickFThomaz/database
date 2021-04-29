@@ -15,7 +15,7 @@ SELECT AVG(peso) FROM pokedex WHERE tipo1 or tipo2 = 'pedra'
 
 
 4) Traduzir os tipos dos pokemons.
-feito
+UPDATE pokedex SET tipo2 = 'planta' WHERE tipo2 = 'grass';
 
 
 5) Utilizando o site https://serebii.net/pokedex-swsh/ encontre os pokemon com os IDs 80, 122, 149 e insira-os na tabela.
