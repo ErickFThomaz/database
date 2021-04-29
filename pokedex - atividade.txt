@@ -33,6 +33,7 @@ select tipo1, avg(attack) from pokedex group by tipo1
 524.0256 = 5
 522.2535 = 6
 983.0000 = 7
+select tipo1, avg(peso) from pokedex group by generation
 
 
 8) A geração três possui quantos pokemons?
