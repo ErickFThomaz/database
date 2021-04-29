@@ -1,16 +1,23 @@
-1º
-SELECT COUNT(*) FROM `vencedoresdooscar` WHERE Nominee = 'Natalie Portman' 
-2 vezes
-2º
-SELECT COUNT(*) FROM `vencedoresdooscar` WHERE Nominee = 'Natalie Portman' AND Won = 'Yes'
-1 vez
-3º 
-SELECT COUNT(*) FROM `vencedoresdooscar` WHERE Nominee = 'Amy Adams' AND Won = 'Yes'
-Não
-4º
-SELECT Year, Won FROM 'vencedoresdooscar` WHERE Nominee = 'Toy Story 3' AND WON = 'YES'
-2010
-5º 
-SELECT COUNT(*) FROM `vencedoresdooscar` WHERE category = 'Actor -- Leading Role' AND WON = 'YES';
-SELECT COUNT(*) FROM `vencedoresdooscar` WHERE category = 'Best Picture' AND WON = 'YES';
-Os melhor ator ganhou 85 e melhor filme 83
+_____________________________________________________________________________________________________|        
+Quantas vezes Natalie Portman foi indicada ao Oscar? Quantas ela ganhou?                             |
+R: Sim, ela ganhou 1 vezes                                                                           |  
+SELECT COUNT(*) FROM `vencedoresdooscar` WHERE Nominee = 'Natalie Portman'                           |
+SELECT COUNT(*) FROM `vencedoresdooscar` WHERE Nominee = 'Natalie Portman' AND Won = 'Yes'           |
+                                                                                                     |
+                                                                                                     |
+_____________________________________________________________________________________________________|
+Amy Adams já ganhou algum Oscar?                                                                     |
+R:Não                                                                                                | 
+SELECT COUNT(*) FROM `vencedoresdooscar` WHERE Nominee = 'Amy Adams' AND Won = 'Yes'                 | 
+                                                                                                     | 
+_____________________________________________________________________________________________________|
+Toy Story 3 ganhou Oscar em quais anos?                                                              |
+SELECT Year, Won FROM 'vencedoresdooscar` WHERE Nominee = 'Toy Story 3' AND WON = 'YES'              |
+2010                                                                                                 |
+                                                                                                     |
+_____________________________________________________________________________________________________|   
+Quem tem mais Oscars: a categoria "Melhor Ator" ou "Melhor Filme"?                                   |
+R:Os melhor atores gannharam 85 e o melhor filme 83                                                  | 
+SELECT COUNT(*) FROM `vencedoresdooscar` WHERE category = 'Actor -- Leading Role' AND WON = 'YES';   |
+SELECT COUNT(*) FROM `vencedoresdooscar` WHERE category = 'Best Picture' AND WON = 'YES';            | 
+_____________________________________________________________________________________________________|
