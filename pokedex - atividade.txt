@@ -20,6 +20,11 @@ feito
 
 5) Utilizando o site https://serebii.net/pokedex-swsh/ encontre os pokemon com os IDs 80, 122, 149 e insira-os na tabela.
 
+6) Qual tipo de pokemon possui mais attack em média.
+R:Lutador = 107.9600
+select tipo1, avg(attack) from pokedex group by tipo1
+
+
 7) Qual geração de pokemons é mais pesada, em média?
 435.0602 = 1
 491.0500 = 2
