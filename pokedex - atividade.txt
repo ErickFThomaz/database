@@ -26,14 +26,8 @@ select tipo1, avg(attack) from pokedex group by tipo1
 
 
 7) Qual geração de pokemons é mais pesada, em média?
-435.0602 = 1
-491.0500 = 2
-670.7778 = 3
-768.8505 = 4
-524.0256 = 5
-522.2535 = 6
-983.0000 = 7
-select tipo1, avg(peso) from pokedex group by generation
+R: Geração 7 com 983.0000
+select generation, avg(peso) from pokedex group by generation
 
 
 8) A geração três possui quantos pokemons?
